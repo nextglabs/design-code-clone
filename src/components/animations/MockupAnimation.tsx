@@ -117,4 +117,12 @@ const Wrapper = styled.div`
 
         border-radius: 8px;
     }
+
+    @media (max-width: 768px) {
+        transform: scale(0.6);
+        transform-origin: top left;
+    }
+    @media (max-width: 450px) {
+        transform: scale(0.4);
+    }
 `;
